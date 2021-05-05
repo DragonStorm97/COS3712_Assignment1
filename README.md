@@ -33,8 +33,10 @@ A slider, used to control camera zoom. (z distance change only as FoV change isn
 ## Libraries Used
 All libraries are included for ease of use.
 * three.js 
+* three.modules.js (to use the OrbitControls and OBJLoader three.js modules)
+* OBJLoader.js (used to load vehicle assets)
+* OrbitControls.js (for mouse pan, rotate, and zoom to aid usability)
 * TweenMax.min.js (for animating with tweens)
-* OrbitControls.js (for mouse pan, rotate, and zoom to aid usability) (NOTE: file altered to remove NPM dependency)
 
 ## Assets
 As the models for the car, bus and truck weren't specified, custom models were made.  
