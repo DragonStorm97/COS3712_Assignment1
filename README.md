@@ -2,18 +2,18 @@
 
 ## Project Structure
 * libs
- * (libraries as described below)
+	* (libraries as described below)
 * src
- * css
-  * main.css (stylesheet file)
- * js
-  * setup.js (sets up WebGL and the scene and calls the relavant functions to add meshes to the scene)
-  * createIntersection.js (creates the roads and pavement)
-  * addTrafficLights.js (builds and then adds the traffic lights to the intersection)
-  * addVehicles.js (adds the vehicles to the intersection, adding the vehicle meshes to an array to be used by the animation button)
-  * animation.js (handles the button press and animating of a random vehicle)
-  * createBuildings.js (builds and then adds the buildings to the scene)
- * index.html (page definition)
+	* css
+		* main.css (stylesheet file)
+	* js
+		* setup.js (sets up WebGL and the scene and calls the relavant functions to add meshes to the scene)
+		* createIntersection.js (creates the roads and pavement)
+		* addTrafficLights.js (builds and then adds the traffic lights to the intersection)
+		* addVehicles.js (adds the vehicles to the intersection, adding the vehicle meshes to an array to be used by the animation button)
+		* animation.js (handles the button press and animating of a random vehicle)
+		* createBuildings.js (builds and then adds the buildings to the scene)
+	* index.html (page definition)
 
 ## UI:
 This project has a heading (COST3712 Assignment 1 - Johnathan Jacobs - 61009172)
@@ -24,9 +24,9 @@ A slider, used to control camera zoom. (z distance change only as FoV change isn
 * light source
 * Intersection (road + curbsides)
 * Vehicles at the intersection
- * Car
- * Bus
- * Truck 
+	* Car
+	* Bus
+	* Truck 
 * Traffic lights (with working lights)
 * Buildings
 
