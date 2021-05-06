@@ -17,9 +17,12 @@
 	* index.html (page definition)
 
 ## UI:
-This project has a heading (COST3712 Assignment 1 - Johnathan Jacobs - 61009172)  
-A button that will animate a random car.  
-A slider, used to control camera zoom. (z distance change only as FoV change isn't as pleasent in the context)  
+This project has:
+* A heading (COST3712 Assignment 1 - Johnathan Jacobs - 61009172)  
+* A button that will animate a random car.  
+* A label (to indicate what the slider does)
+* A slider, used to control camera zoom. (z distance change only as FoV change isn't as pleasent in the context)  
+* Another Label to indicate the slider's value
 
 ## Environment
 * Intersection (road + curbsides)
@@ -40,13 +43,16 @@ All libraries are included for ease of use.
 * TweenMax.min.js (for animating with tweens)
 
 ## Assets
-As the models for the car, bus and truck weren't specified, custom models were made.  
 The Traffic lights are (simplisticly) procedurally generated.  
 The buildings are (simplisticly) procedurally generated to match the assignment specification.  
+As the models for the car, bus and truck weren't specified, custom models were made.  
 * car model
 * bus model
 * truck model
 * Pickup truck model
+These models are un-textured so their material is set upon creation.
+The car, bus, and truck have predefined colours, extras (such as Pickup Truck) have a randomised colour.
+If the project is run by directly opening index.html, then the vehicles are generated as boxes with a defined colour.
 
 # Assignment 1 Specification
 NB. You need to submit code for this assignment. Place all your files that would be required to execute your project in a zip folder and upload on myunisa.  
