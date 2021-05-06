@@ -7,6 +7,7 @@
 	* css
 		* main.css (stylesheet file)
 	* js
+		* globals.js (Contains project & constant globals)
 		* setup.js (sets up WebGL and the scene and calls the relavant functions to add meshes to the scene)
 		* createIntersection.js (creates the roads and pavement)
 		* addTrafficLights.js (builds and then adds the traffic lights to the intersection)
@@ -21,13 +22,13 @@ A button that will animate a random car.
 A slider, used to control camera zoom. (z distance change only as FoV change isn't as pleasent in the context)  
 
 ## Environment
-* light source
 * Intersection (road + curbsides)
 * Vehicles at the intersection
 	* Car
 	* Bus
 	* Truck 
-* Traffic lights (with working lights)
+	* Pickup Truck 
+* Traffic lights
 * Buildings
 
 ## Libraries Used
@@ -45,6 +46,7 @@ The buildings are (simplisticly) procedurally generated to match the assignment 
 * car model
 * bus model
 * truck model
+* Pickup truck model
 
 # Assignment 1 Specification
 NB. You need to submit code for this assignment. Place all your files that would be required to execute your project in a zip folder and upload on myunisa.  
