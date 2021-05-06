@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COS3712 - Assignment 1 - 61009172</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1> COS3712 - Assignment 1 - 61009172 </h1>
+
+    <div is="sliderid" class="inputContainer">
+        <div>
+            <button id="AnimateButton" type="button">Press to animate!</button>
+        </div>
+        <div>
+            <label>Zoom:</label>
+        </div>
+        <input type="range" min="5" max="100" value="5" class="slider" id="zoomSlider">
+        <label id="sliderDisplay">5</label>
+    </div>
+    
+    <script src="../libs/three.js"></script>
+    <script src="../libs/OBJLoader.js"></script>
+    <script src="../libs/TweenMax.min.js"></script>
+    <script src="../libs/OrbitControls.js"></script>
+
+    <script src="js/globals.js"></script>
+    <script src="js/addTrafficLights.js"></script>
+    <script src="js/addVehicles.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/createBuildings.js"></script>
+    <script src="js/createIntersection.js"></script>
+    <script src="js/setup.js"></script>
+
+
+    
+</body>
+</html>

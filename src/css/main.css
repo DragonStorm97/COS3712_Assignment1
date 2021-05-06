@@ -1,0 +1,23 @@
+body { 
+    margin: 0; 
+    height: 100vh;
+}
+  
+canvas { 
+    display: block;
+}
+
+h1 {
+    position: absolute;
+    font-size: 2em;
+    text-transform: uppercase;
+    width: auto;
+    line-height: .8em;
+    border: 5px solid black;
+    padding: .2em;
+  }
+
+div.inputContainer {
+    position: absolute;
+    top: 7em;
+}
